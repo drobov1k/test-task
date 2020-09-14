@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #191919;
+  padding: 0;
+  font-family: sans-serif;
+  background: #1f2020;
+  height: 100vh;
 }
 
 code {

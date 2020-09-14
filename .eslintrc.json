@@ -1,12 +1,14 @@
 {
     "env": {
         "browser": true,
+        "es6": true,
         "es2020": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "airbnb"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -18,5 +20,11 @@
         "react"
     ],
     "rules": {
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "no-restricted-syntax": "off"
     }
 }
